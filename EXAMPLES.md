@@ -142,9 +142,9 @@ This illustrates the `start` method, which returns a new instance of the state m
 
 ## <a name="example2"></a>Example 2: Login Form + Testing + VueJS
 
-Consider next implementing a login form. This login form should redirect immediately to the dashboard if the user is already logged in, otherwise it should show the email and password form. Once on the form, the user can change the email and passowrd before submitting the form, if they are authorized then they should be redirected to the dashboard.
+Consider next implementing a login form. This login form should redirect immediately to the dashboard if the user is already logged in, otherwise it should show the email and password form. Once on the form, the user can change the email and password before submitting the form. If they are authorized, then they should be redirected to the dashboard.
 
-Based on these requirements we can construct the following state machine:
+Based on these requirements, we can construct the following state machine:
 
 
 <img src="docs/login.dot.svg">
